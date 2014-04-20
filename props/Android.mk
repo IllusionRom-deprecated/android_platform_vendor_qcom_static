@@ -76,7 +76,7 @@ LOCAL_MODULE_PATH   := $(PRODUCT_OUT)/system/lib
 include $(BUILD_SHARED_LIBRARY)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE        := libOmxAacDec.so
+LOCAL_MODULE        := libOmxAacDec
 LOCAL_MODULE_OWNER  := qcom
 LOCAL_MODULE_TAGS   := optional debug
 LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
@@ -86,7 +86,7 @@ LOCAL_MODULE_PATH   := $(PRODUCT_OUT)/system/vendor/lib
 include $(BUILD_SHARED_LIBRARY)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE        := libOmxEvrcDec.so
+LOCAL_MODULE        := libOmxEvrcDec
 LOCAL_MODULE_OWNER  := qcom
 LOCAL_MODULE_TAGS   := optional debug
 LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
@@ -96,7 +96,7 @@ LOCAL_MODULE_PATH   := $(PRODUCT_OUT)/system/vendor/lib
 include $(BUILD_SHARED_LIBRARY)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE        := libsrsprocessing.so
+LOCAL_MODULE        := libsrsprocessing
 LOCAL_MODULE_OWNER  := qcom
 LOCAL_MODULE_TAGS   := optional debug
 LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
@@ -106,7 +106,7 @@ LOCAL_MODULE_PATH   := $(PRODUCT_OUT)/system/vendor/lib
 include $(BUILD_SHARED_LIBRARY)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE        := libsurround_proc.so
+LOCAL_MODULE        := libsurround_proc
 LOCAL_MODULE_OWNER  := qcom
 LOCAL_MODULE_TAGS   := optional debug
 LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
@@ -116,7 +116,7 @@ LOCAL_MODULE_PATH   := $(PRODUCT_OUT)/system/vendor/lib
 include $(BUILD_SHARED_LIBRARY)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE        := surround_sound_headers.so
+LOCAL_MODULE        := surround_sound_headers
 LOCAL_MODULE_OWNER  := qcom
 LOCAL_MODULE_TAGS   := optional debug
 LOCAL_MODULE_CLASS  := SHARED_LIBRARIES
